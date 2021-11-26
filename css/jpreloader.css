@@ -1,0 +1,43 @@
+#jpreOverlay {
+	background-color: #000000;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+#jpreSlide{
+	font-size:22px;
+	color:#ccc;
+	text-align:center;
+	width:50%;
+	height:30%;
+}
+#jpreLoader{
+	width:100%;
+	height:2px;
+	background:#111;
+}
+
+#jpreBar {
+	background:#222;
+}
+
+#jprePercentage {
+	z-index:-1;
+	font-weight: bold;
+	text-align:center;
+	margin-top:10px;
+	font-size:160px;
+	margin-top:-10px;
+	letter-spacing: -8px;
+	color:rgba(255,255,255,.1);
+}
+
+#jSplash{
+	line-height:200%;
+}
+
+#jSplash section{
+	padding:0;
+	display:block;
+	background:none !important;
+}
